@@ -5,7 +5,7 @@ Conect Microsite
 
 ====================
 
-Exertis Micro-P Quickstart Project for microsites, landing page, etc on exertismicro-p.co.uk - fork from this to start a new project
+Exertis Micro-P Quickstart Project for Microsites | multipage ajax microsite configured for Conect
 
 ##Prerequisite
 Webserver with domain & webroot folder (default document index.html)
