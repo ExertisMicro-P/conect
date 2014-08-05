@@ -1,0 +1,467 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face{
+font-family:"HelveticaNeueW01-76Bold";
+src:url("../fonts/9eb382e7-b9a0-4ec0-86b3-7a690b9e127b.eot?#iefix");
+src:url("../fonts/9eb382e7-b9a0-4ec0-86b3-7a690b9e127b.eot?#iefix") format("eot"),url("../fonts/628a0837-f9e0-4b32-83c4-d99689b9da93.woff") format("woff"),url("../fonts/4d9ecce0-f253-49fd-8623-b0f896b12794.ttf") format("truetype"),url("../fonts/dcdd4c31-466f-43f5-85c9-9bcdcd814139.svg#dcdd4c31-466f-43f5-85c9-9bcdcd814139") format("svg");
+}
+@font-face{
+font-family:"HelveticaNeueW01-95Blac";
+src:url("../fonts/b26ccb58-f2e3-47aa-a83a-02861bf54862.eot?#iefix");
+src:url("../fonts/b26ccb58-f2e3-47aa-a83a-02861bf54862.eot?#iefix") format("eot"),url("../fonts/74649485-cd74-443e-9d54-331ccd448900.woff") format("woff"),url("../fonts/feb77f4f-9e6b-4f88-909a-66199fd402ed.ttf") format("truetype"),url("../fonts/2e490192-e531-4236-9c55-90daaad4a34e.svg#2e490192-e531-4236-9c55-90daaad4a34e") format("svg");
+}
+@font-face{
+font-family:"HelveticaNeueW01-75Bold";
+src:url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix");
+src:url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"),url("../fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff"),url("../fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf") format("truetype"),url("../fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg");
+}
+
+.ms-wrapper #conectlogo {
+	margin:27px 0 0;
+}
+
+.ms-wrapper .navbar-nav {
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.ms-wrapper .navbar-nav li.active {
+	border-bottom:4px solid #6f5090;
+}
+.ms-wrapper .navbar-nav a {
+	font-size:17px;
+	color:#000;
+}
+.ms-wrapper .navbar-nav li li a {
+	font-size:14px;
+}
+
+.ms-wrapper .btn-default:active, .btn-default.active {
+	background:#6d6e71;
+}
+.ms-wrapper .btn:active, .btn.active {
+	box-shadow:none;
+}
+.ms-wrapper .btn-default {
+	text-shadow:none;
+}
+.ms-wrapper .btn,
+.ms-wrapper .form-control {
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.ms-wrapper .form-control:focus {
+	outline:0;
+	background:#fff;
+}
+.ms-wrapper .form-group {
+	margin-bottom:10px;
+}
+.ms-wrapper h4, .ms-wrapper .h4 {
+	margin-bottom:20px;
+}
+.ms-wrapper h1 {
+	margin-bottom:42px;
+	margin-top:0;
+}
+.ms-wrapper a,
+.ms-wrapper .btn {
+	-o-transition:all 0.2s;
+	-ms-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	transition:all 0.2s;
+}
+.ms-wrapper h1,
+.ms-wrapper h2,
+.ms-wrapper h3,
+.ms-wrapper h4,
+.ms-wrapper h5,
+.ms-wrapper h6,
+.ms-wrapper .h1,
+.ms-wrapper .h2,
+.ms-wrapper .h3,
+.ms-wrapper .h4,
+.ms-wrapper .h5,
+.ms-wrapper .h6,
+.ms-wrapper .btn,
+.ms-wrapper .lead,
+.ms-wrapper .navbar-nav {
+	text-transform:uppercase;
+	font-family: 'HelveticaNeueW01-95Blac', Helvetica, Arial, sans-serif;
+	font-weight:normal;
+}
+.ms-wrapper p {
+	margin-bottom:20px;
+}
+.ms-wrapper .panel,
+.ms-wrapper .item {
+	background:url(../images/target.png) no-repeat 23px -58px;
+}
+.ms-wrapper .panel {
+	margin-bottom:15px;
+	border:0;
+	box-shadow:none;
+	color:#fff;
+	padding:40px 35px;
+}
+.ms-wrapper .panel.bgright,
+.ms-wrapper .item.bgright {
+	background-position:548px -58px;
+}
+.ms-wrapper .nobgimg {
+	background-image:none;
+}
+.ms-wrapper .panel-body {
+	padding:7px 15px;
+}
+.ms-wrapper .panel#jumbobann,
+.ms-wrapper .panel#jumbobann .panel-body {
+	padding:0;
+}
+.ms-wrapper .panel-lesspadd {
+	padding:14px;
+}
+.ms-wrapper .panel h3 {
+	margin-top:0;
+}
+.ms-wrapper .panel .extramargbottom {
+	margin-bottom:20px;
+}
+.ms-wrapper .bglgtgrey {
+	color:#4d4d4d;
+	background:#f0f1f3;
+}
+.ms-wrapper .panel img.pull-left {
+	margin:0 50px 0 0;
+}
+.ms-wrapper .panel img.pull-right {
+	margin:0 0 0 50px;
+}
+.ms-wrapper .bgblue,
+.ms-wrapper .btn.btnblue {
+	background-color:#00AED6;
+}
+.ms-wrapper .bgpurple {
+	background-color:#6F5091;
+}
+.ms-wrapper .bggreen {
+	background-color:#84BD00;
+}
+.ms-wrapper .bggrey {
+	background-color:#4d4d4d;
+}
+.ms-wrapper .bgdkblue,
+.ms-wrapper .btn.btndkblue {
+	background-color:#1c2674;
+}
+.ms-wrapper .btn {
+	background:#fff;
+	text-transform:uppercase;
+	font-size:18px;
+	padding:17px 42px;
+	width:100%;
+	color:#b1b1b1;
+	border:0;
+}
+.ms-wrapper .btn.btnblue,
+.ms-wrapper .btn.btndkblue {
+	color:#fff;
+}
+.ms-wrapper .dkgrey {
+	color:#6d6e71;
+}
+.ms-wrapper .blue {
+	color:#00AED6 !important;
+}
+.ms-wrapper .dkblue {
+	color:#1c2674;
+}
+.ms-wrapper .white {
+	color:#fff !important;
+}
+.ms-wrapper .lgtgrey {
+	color:#dddddd;
+}
+.ms-wrapper .btn:hover {
+	background:#000;
+/*	color:#b1b1b1;*/
+}
+.ms-wrapper .btn.pull-right,
+.ms-wrapper .btn.pull-left {
+	width:auto;
+}
+.ms-wrapper .btn.btn-sm {
+	font-size:14px;
+	padding:10px 32px;
+}
+.ms-wrapper .form-control {
+	border:0;
+	font-size:20px;
+	background:rgba(255,255,255,0.9);
+	height:auto;
+	padding:14px 20px;
+	color:#b1b1b1;
+}
+.ms-wrapper ul {
+	margin:0 0 32px;
+	padding:0;
+}
+.ms-wrapper .ticklist li {
+	list-style:none;
+	margin:0 0 15px;
+}
+.ms-wrapper .ticklist .glyphicon {
+	padding-right:5px;
+	color:#6F5091;
+}
+.ms-wrapper #signintoportal p {
+	margin:11px 0 0 0;
+}
+.ms-wrapper .carousel-caption {
+	position:static;
+	top:auto;
+	bottom:auto;
+	left:auto;
+	right:auto;
+	z-index:auto;
+	text-align:left;
+	padding:55px 80px 58px;
+}
+.ms-wrapper .carousel-caption h2,
+.ms-wrapper .carousel-caption p {
+	padding:0;
+	margin:0;
+}
+.ms-wrapper .carousel-caption h2 {
+	color:rgba(255,255,255,0.2);
+}
+.ms-wrapper .carousel-control.left,
+.ms-wrapper .carousel-control.right {
+	background:none;
+	width:38px;
+}
+.ms-wrapper .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+	height:120px;
+	line-height:120px;
+	background:rgba(255,255,255,0.5);
+	width:auto;
+}
+.ms-wrapper .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next,
+.ms-wrapper .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	margin:-60px 0 0 0;
+	left:0;
+	width:100%;
+}
+.ms-wrapper .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	right:0;
+}
+.ms-wrapper .carousel-indicators {
+	bottom:0;
+	right:80px;
+	left:auto;
+	margin:0;
+	padding:0;
+	width:auto;
+}
+.ms-wrapper .carousel-indicators li {
+	border:0;
+	background:rgba(255,255,255,0.5);
+}
+.ms-wrapper .carousel-indicators li,
+.ms-wrapper .carousel-indicators .active {
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	display:block;
+	float:left;
+	margin:0 2px 0 0;
+	width:18px;
+	height:18px;
+}
+.ms-wrapper .innerheader {
+	border-bottom:4px solid #e6e6e6;
+	height:150px;
+}
+.ms-wrapper #breadcrumbtel {
+	height:60px;
+	line-height:60px;
+}
+.ms-wrapper #breadcrumbtel p {
+	margin:0;
+}
+.ms-wrapper .breadcrumb {
+	padding:0;
+	margin:0;
+}
+.ms-wrapper .breadcrumb a {
+	color:#4d4d4d;
+}
+.ms-wrapper .breadcrumb .active {
+	font-weight:bold;
+}
+.ms-wrapper .breadcrumb > li + li:before {
+  padding: 0 7px;
+  color: #6F5091;
+	font-weight:normal;
+}
+.ms-wrapper #breadcrumbtel .glyphicon {
+	padding:0 10px;
+}
+.ms-wrapper .headertel {
+	font-size:17px;
+}
+.ms-wrapper #abovefooter {
+	padding:60px 0 32px;
+}
+.ms-wrapper #abovefooter .ctaanchorblock a {
+	line-height:1;
+	margin:0 0 5px;
+	display:block;
+}
+.ms-wrapper #abovefooter .ctaanchorblock a:hover,
+.ms-wrapper #abovefooter .ctaanchorblock a:focus {
+	color:#dddddd;
+	text-decoration:none;
+}
+.ms-wrapper #footersignup input,
+.ms-wrapper #footersignup button {
+	padding:0;
+	text-align:center;
+	height:45px;
+	line-height:45px;
+}
+.ms-wrapper #footersignup input {
+	width:75%;
+	-webkit-border-radius:3px 0 0 3px;
+	-moz-border-radius:3px 0 0 3px;
+	border-radius:3px 0 0 3px;
+}
+.ms-wrapper #footersignup button {
+	width:25%;
+	-webkit-border-radius:0 3px 3px 0;
+	-moz-border-radius:0 3px 3px 0;
+	border-radius:0 3px 3px 0;
+	background:#1c2674;
+	color:#fff;
+}
+.ms-wrapper #footersignup .form-control {
+	background:#fff;
+}
+.ms-wrapper #backtotop {
+	font-size:20px;
+	padding:20px;
+	color:#fff;
+	position:fixed;
+	right:16px;
+	bottom:0;
+	top:auto;
+	cursor:pointer;
+}
+.ms-wrapper #backtotop:hover {
+	background: #e6e6e6;
+}
+.ms-wrapper .container {
+	position:relative;
+}
+.ms-wrapper .nopadlandr {
+	padding-left:0;
+	padding-right:0;
+}
+.ms-wrapper .nomarg {
+	margin:0 !important;
+}
+.ms-wrapper .row .row {
+	padding:15px 0 0;
+}
+.ms-wrapper .carousel img.breakout {
+	margin:-32px 0 20px;
+}
+.ms-wrapper .carousel-inner > .item {
+	overflow:auto;
+}
+.ms-wrapper .servicepane p.lead {
+	font-family:"HelveticaNeueW01-75Bold";
+	margin:0 0 12px;
+}
+.ms-wrapper .servicepane h2 {
+	margin:0 0 30px;
+}
+.ms-wrapper .servicepane h2.smlr {
+	font-size:55px;
+	line-height:1;
+}
+.ms-wrapper .servicepane .ticklist span {
+	padding-right:15px;
+}
+.ms-wrapper .servicepane .ticklist {
+	margin-bottom:0;
+}
+.ms-wrapper .servicepane .ticklist li {
+	margin-bottom:5px;
+}
+.ms-wrapper .margtop {
+	margin-top:19px;
+}
+.ms-wrapper .panel.quote {
+	
+}
+.ms-wrapper .panel.quote .quotetext {
+	padding-left:100px;
+}
+.ms-wrapper .panel.quote .quotetext .h5 {
+	font-family:"HelveticaNeueW01-76Bold";
+	text-transform:none;
+	line-height:1.3;
+}
+.ms-wrapper .panel.quote {
+	position:relative;
+}
+.ms-wrapper .panel.quote .quotemark {
+	position:absolute;
+	top:56px;
+	left:-46px;
+	width:171px;
+	height:128px;
+	background:url(../images/quote.png) no-repeat 0 0;
+}
+.ms-wrapper .panel.clientlogo,
+.ms-wrapper .panel.clientlogo .panel-body {
+	padding:0;
+}
+.ms-wrapper .panel.clientlogo .panel-body {
+	padding:17px;
+}
+.ms-wrapper .panel.clientlogo .logoholder {
+	background:#fff;
+	text-align:center;
+	padding:120px 0;
+}
+.ms-wrapper .row#clientscarousel .row {
+	margin:0;
+}
+.ms-wrapper .row#clientscarousel .col-md-12 {
+	padding:0;
+	margin-top:-15px;
+}
+.ms-wrapper .row#clientscarousel .carousel-control .glyphicon-chevron-right,
+.ms-wrapper .row#clientscarousel .carousel-control .glyphicon-chevron-left {
+	margin:0;
+	background:none;
+	color:#000;
+	top:132px;
+}
+.ms-wrapper .row#clientscarousel .carousel-control.right {
+	right:-40px;
+}
+.ms-wrapper .row#clientscarousel .carousel-control.left {
+	left:-40px;
+}
+.ms-wrapper #brandpartners img {
+	margin:0 12px;
+}
+.ms-wrapper #brandpartners img.last {
+	margin-right:0;
+}
