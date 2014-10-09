@@ -620,13 +620,13 @@ src:url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"
 .ms-wrapper h1,
 .ms-wrapper .h1
 {
-    font-size: 75px;
+    font-size: 42px; /*75px;*/
     line-height: 0.9;
 }
 
 .ms-wrapper h1
 {
-	margin-bottom:42px;
+	margin-bottom: 42px;
 	margin-top:0;
 }
 
@@ -634,7 +634,7 @@ src:url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"
 .ms-wrapper .h2
 {
 	line-height: 1;
-    font-size: 48px;
+    font-size: 36px; /*48px;*/
 }
 
 .ms-wrapper h3,
@@ -1233,4 +1233,8 @@ ADDED BY RCH
 .ms-wrapper .btn.invert:hover
 {
     background-color: #888 !important;
+}
+
+.indent {
+    margin-left: 20px;
 }
